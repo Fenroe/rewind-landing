@@ -81,7 +81,7 @@
   color: #e5e7eb;
 }
 
-.hero-cta {
+.cta-button {
   background-color: #3882f6;
   text-decoration: none;
   color: inherit;
@@ -92,6 +92,11 @@
   align-self: start;
   cursor: pointer;
   font-weight: 700;
+  font-size: 18px;
+}
+
+.button-border {
+  border: 2px solid white;
 }
 
 .features-content-container {
@@ -165,4 +170,30 @@
   text-align: right;
   font-size: 24px;
   font-weight: 900;
+}
+
+.cta-content-container {
+  padding: 64px 0;
+  width: 100%;
+}
+
+.cta-container {
+  padding: 64px;
+  width: 100%;
+  background-color: #3882f6;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text-heading {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cta-text-subheading {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
 }
