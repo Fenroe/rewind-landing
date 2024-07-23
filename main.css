@@ -5,15 +5,22 @@
   font-family: sans-serif;
 }
 
+:root {
+  --container-width: 952px;
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: var(--container-width);
+}
+
 .header {
   color: #f9faf8;
   background-color: #1f2937;
 }
 
 .header-content-container {
-  margin: 0 auto;
   padding: 12px 0;
-  max-width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,13 +48,11 @@
 }
 
 .hero-content-container {
-  margin: 0 auto;
   padding: 128px 0;
-  max-width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 64px;
+  gap: 32px;
 }
 
 .hero-text-container {
@@ -74,7 +79,6 @@
 .hero-subtext {
   font-size: 18px;
   color: #e5e7eb;
-  letter-spacing: 2.5px;
 }
 
 .hero-cta {
